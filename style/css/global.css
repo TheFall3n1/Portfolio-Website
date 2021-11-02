@@ -694,8 +694,9 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   background-position: 10px top;
   opacity: 1;
 }
-
+/* this was turned to black, remove color if necessary*/
 .section-header .section-header__title--about {
+  color: #000;
   background-image: url("../img/title_square.svg");
 }
 
@@ -727,12 +728,21 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   padding-left: 100px;
 }
 
+.section-header__subtitle--about {
+  /* this was turned to black, remove this class if necessary*/
+  color: #000;
+  font-size: 22px;
+  font-weight: 200;
+  padding-top: 5px;
+  padding-left: 100px;
+}
+
 /*-----------------------------------*\
         About Section - 2nd 
 \*-----------------------------------*/
 .about {
   background-color: rgba(67, 55, 76, 0.99);
-  background-image: linear-gradient(to bottom right, #360033, #0b8793 2100px);
+  background-image: linear-gradient(to bottom right, #f3f0f3, #0b8793 1000px);
   position: relative;
 }
 .about::before {
@@ -785,9 +795,10 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 .about__description {
   clear: both;
   text-align: center;
-  color: rgba(255, 255, 255, 0.9);
+  /* this was turned to black, remove color if necessary*/
+  color: rgba(0, 0, 0, 0.9);
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 500;
   padding-top: 7%;
   padding-bottom: 8%;
 }
@@ -903,7 +914,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 \*------------------------------------*/
 .ss {
   background-color: rgba(67, 55, 76, 0.99);
-  background-image: linear-gradient(to bottom right, #0f1063be, #ec2cd2a4 2100px);
+  background-image: linear-gradient(to bottom right, #f54171, #29c450de 2100px);
   position: relative;
 }
 
@@ -980,6 +991,8 @@ main {
 	 min-height: 3rem;
 	 padding: 1rem 1rem 1rem 3rem;
 	 position: relative;
+   text-align: center;
+   /*make font-weight bolder if necessary*/
 }
  ol.gradient-list > li::before, ol.gradient-list > li::after {
 	 background: linear-gradient(135deg, #e70777 0%, #1c8df7 100%);
@@ -1044,7 +1057,7 @@ ol.listitem {
 \*------------------------------------*/
 .features {
   background-color: rgba(59, 62, 82, 0.99);
-  background-image: linear-gradient(to bottom left, #354b15, #1b5752 2100px);
+  background-image: linear-gradient(to bottom right, #29c450be, #1c4185cc 2100px);
   position: relative;
   overflow: hidden;
 }
