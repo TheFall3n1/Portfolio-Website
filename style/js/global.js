@@ -3,14 +3,6 @@
 \*------------------------------------*/
 $(document).ready(function(){
 
-	/*------------------------------------*\
-		FUNCTION ShowcaseHeightSet()
-		Set '.showcase__stage-wrapper'
-		height the same as
-		'.showcase__stage--active'
-		(which is positioned absolutely
-		and doesn't fill wrapper)
-	\*------------------------------------*/
 	function ShowcaseHeightSet() {
 		$(".showcase__stage-wrapper").css("height", $(".showcase__stage--active").height() );
 	}
@@ -52,13 +44,8 @@ $(document).ready(function(){
 
 	window.addEventListener("orientationchange", function() {
 		ShowcaseHeightSet();
-	});
+	}); 
 
-	/*------------------------------------*\
-		Run showcase height function
-		after image on active slide
-		has loaded
-	\*------------------------------------*/
 	$(".showcase__stage--active img").one("load", function() {
 		ShowcaseHeightSet();
 	}).each(function() {
@@ -113,7 +100,7 @@ $(document).ready(function(){
 	/*------------------------------------*\
 		Portfolio Showcase
 	\*------------------------------------*/
-	//responsive slides set
+
 	var slides_settings = {
 		auto: true,              // Boolean: Animate automatically, true or false
 		speed: 500,              // Integer: Speed of the transition, in milliseconds
