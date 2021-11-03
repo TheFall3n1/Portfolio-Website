@@ -694,7 +694,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   background-position: 10px top;
   opacity: 1;
 }
-/* this was turned to black, remove color if necessary*/
+
 .section-header .section-header__title--about {
   color: rgb(255, 255, 255);
   background-image: url("../img/title_square.svg");
@@ -728,14 +728,6 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   padding-left: 100px;
 }
 
-.section-header__subtitle--about {
-  /* this was turned to black, remove this class if necessary*/
-  color: rgb(255, 255, 255);
-  font-size: 22px;
-  font-weight: 200;
-  padding-top: 5px;
-  padding-left: 100px;
-}
 
 /*-----------------------------------*\
         About Section - 2nd 
@@ -795,7 +787,6 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 .about__description {
   clear: both;
   text-align: center;
-  /* this was turned to black, remove color if necessary*/
   color: rgba(255, 255, 255, 0.9);
   font-size: 24px;
   font-weight: 500;
