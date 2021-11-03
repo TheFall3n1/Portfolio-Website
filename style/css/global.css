@@ -552,7 +552,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   opacity: 0.9;
   overflow: hidden;
   background-color: #1b0530;
-  background-image: url("../img/hero_gradient.png");
+  background-image: url("../img/hero_gradien.png");
   background-size: 100%;
   background-position: 80% 80%;
   -webkit-animation-name: HeroGradient;
@@ -696,7 +696,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 /* this was turned to black, remove color if necessary*/
 .section-header .section-header__title--about {
-  color: #000;
+  color: rgb(255, 255, 255);
   background-image: url("../img/title_square.svg");
 }
 
@@ -730,7 +730,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 
 .section-header__subtitle--about {
   /* this was turned to black, remove this class if necessary*/
-  color: #000;
+  color: rgb(255, 255, 255);
   font-size: 22px;
   font-weight: 200;
   padding-top: 5px;
@@ -742,7 +742,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 \*-----------------------------------*/
 .about {
   background-color: rgba(67, 55, 76, 0.99);
-  background-image: linear-gradient(to bottom right, #f3f0f3, #0b8793 1000px);
+  background-image: linear-gradient(to bottom right, #38ff8b, #0b8793 1000px);
   position: relative;
 }
 .about::before {
@@ -796,7 +796,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   clear: both;
   text-align: center;
   /* this was turned to black, remove color if necessary*/
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 24px;
   font-weight: 500;
   padding-top: 7%;
