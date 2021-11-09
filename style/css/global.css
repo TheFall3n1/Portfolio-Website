@@ -620,13 +620,13 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   margin-top: 90px;
   float: right;
 }
-/*SET THIS PROFILE PHOTO SHIIIIIIIIIIT*/
+
 .hero__photo {
   position: relative;
   width: 280px;
   height: 280px;
   border-radius: 150px;
-  background-image: url("../img/hero_photo.jpg");
+  background-image: url("style/img/pp.jpg");
   background-size: cover;
 }
 
@@ -786,14 +786,18 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 .about__description {
   clear: both;
-  text-align: center;
+  text-align: left;
   color: rgba(255, 255, 255, 0.9);
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 300;
   padding-top: 7%;
   padding-bottom: 8%;
+  margin-left: 5%;
 }
 
+ul{
+  padding-left: 8%;
+}
 /*------------------------------------*\
       Hard Skill Section - 3rd
 \*------------------------------------*/
@@ -895,7 +899,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   align-items: center;
   margin: auto;
   box-shadow: 4px 14px 28px #393939;
-  margin-left: 8%;
+  margin-left: 9%;
   margin-top: 8%;
 }
 
@@ -956,18 +960,12 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   padding-top: 110px;
   padding-bottom: 200px;
 }
-@import url(https://fonts.googleapis.com/css?family=Montserrat:900|Raleway:400,400i,700,700i);
 
  ol.gradient-list > li, ol.gradient-list > li::before {
 	 box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
 }
 
-main {
-	 display: block;
-	 margin: 0 auto;
-	 max-width: 40rem;
-	 padding: 1rem;
-}
+
  ol.gradient-list {
 	 counter-reset: gradient-counter;
 	 list-style: none;
@@ -983,7 +981,7 @@ main {
 	 padding: 1rem 1rem 1rem 3rem;
 	 position: relative;
    text-align: center;
-   /*make font-weight bolder if necessary*/
+   width: 46%
 }
  ol.gradient-list > li::before, ol.gradient-list > li::after {
 	 background: linear-gradient(135deg, #e70777 0%, #1c8df7 100%);
@@ -994,7 +992,7 @@ main {
 	 overflow: hidden;
 	 position: absolute;
 	 top: -1rem;
-	 width: 3rem;
+	 width: 2rem;
 }
  ol.gradient-list > li::before {
 	 align-items: flex-end;
@@ -1041,6 +1039,11 @@ main {
 }
 ol.listitem {
   text-align: center;
+}
+.iam {
+  float: right;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 /*------------------------------------*\
@@ -1109,9 +1112,9 @@ ol.listitem {
 }
 
 .features__image {
-  background-size: 100px 100px;
+  background-size: 180px 100px;
   background-position: top center;
-  width: 25%;
+  width: 30%;
   min-height: 100px;
   height: 100%;
   float: left;
@@ -1130,7 +1133,7 @@ ol.listitem {
 }
 
 .features__image--browsers {
-  background-image: url("../img/feature/feature_browsers.svg");
+  background-image: url("../img/feature/content.png");
 }
 
 .features__image--clients {
@@ -1762,23 +1765,32 @@ body{
   clear: both;
 }
 
-.footer__copyright {
-  font-size: 26px;
-  float: left;
-  font-weight: 600;
-  opacity: 0.2;
-  margin-top: 54px;
-}
-
 .footer__image {
   width: 350px;
   height: 100px;
-  background-image: url("../img/footer_image.png");
+  background-image: url("style/img/Chaitanya V.png");
   background-size: contain;
   background-position: center right;
   background-repeat: no-repeat;
   float: right;
   opacity: 0.2;
+}
+
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  color: #999;
+}
+  
+.legal__links {
+  margin-top: 7%;
+  margin-right: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  color: #ff0000;
 }
 
 /*------------------------------------*\
@@ -2874,7 +2886,7 @@ body{
   .hero__gradient {
     -webkit-animation-name: none;
             animation-name: none;
-    background-image: linear-gradient(to bottom right, #00223e, #ffa17f 960px);
+    background-image: linear-gradient(to bottom right, #20f8c9af, #fd5bb4de 960px);
     width: 100%;
     height: 100%;
   }
