@@ -720,8 +720,8 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 
 .section-header .section-header__subtitle {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 22px;
-  font-weight: 200;
+  font-size: 24px;
+  font-weight: 300;
   padding-top: 5px;
   padding-left: 100px;
 }
@@ -787,15 +787,16 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   text-align: left;
   color: rgba(255, 255, 255, 0.9);
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 500;
   padding-top: 7%;
   padding-bottom: 8%;
   margin-left: 5%;
+  margin-right: 8%;
 }
 
-ul{
-  padding-left: 8%;
-}
+/*.text {
+
+}*/
 /*------------------------------------*\
       Hard Skill Section - 3rd
 \*------------------------------------*/
@@ -961,6 +962,12 @@ ul{
 
  ol.gradient-list > li, ol.gradient-list > li::before {
 	 box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+   margin-right: 10rem;
+}
+
+ol.gradient-list > li::before{
+  margin-right: 15rem;
+  margin-bottom: 0.8rem;
 }
 
 ol {
@@ -974,68 +981,49 @@ ol {
 	 counter-reset: gradient-counter;
 	 list-style: none;
 	 margin: 1.75rem 0;
-	 padding-left: 25%;
+	 padding-left: 11%;
    font-weight: bold;
    font-size: 25px;
    padding-top: 8%;
-   width: fit-content;
+   width: 100%;
    align-content: center;
+  
 }
  ol.gradient-list > li {
 	 background: white;
-	 border-radius: 0 0.5rem 0.5rem 0.5rem;
+	 border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
 	 counter-increment: gradient-counter;
-	 margin-top: 1rem;
+	 
 	 min-height: 3rem;
 	 padding: 1rem 1rem 1rem 3rem;
 	 position: relative;
-   text-align: center;
+   text-align: left;
    -webkit-column-break-inside: avoid;
    page-break-inside: avoid;
         break-inside: avoid;
+
+  
 }
 
  ol.gradient-list > li::before {
 	 align-items: center;
+   text-align: center;
 	 content: counter(gradient-counter);
-	 color: #1d1f20;
+	 color: #ffffff;
 	 display: flex;
-	 font-size: 25px;
+	 font-size: 20px;
 	 justify-content: flex-end;
 	 padding: 0.125em 0.25em;
 	 z-index: 1;
    font-weight: bold;
+   border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+   font-family: 'Courier New', Courier, monospace;
 }
- ol.gradient-list > li:nth-child(10n+1):before {
-	 background: linear-gradient(135deg, rgba(7, 207, 233, 0.534) 0%, rgba(221, 7, 96, 0.726) 100%);
+
+ ol.gradient-list > li:before {
+	 background: linear-gradient(135deg, rgb(0, 0, 0) 0%, rgb(7, 7, 7) 100%);
 }
- ol.gradient-list > li:nth-child(10n+2):before {
-	 background: linear-gradient(135deg, rgba(162, 237, 86, 0.4) 0%, rgba(253, 220, 50, 0.4) 100%);
-}
- ol.gradient-list > li:nth-child(10n+3):before {
-	 background: linear-gradient(135deg, rgba(162, 237, 86, 0.6) 0%, rgba(253, 220, 50, 0.6) 100%);
-}
- ol.gradient-list > li:nth-child(10n+4):before {
-	 background: linear-gradient(135deg, rgba(162, 237, 86, 0.8) 0%, rgba(28, 128, 209, 0.8) 100%);
-}
- ol.gradient-list > li:nth-child(10n+5):before {
-	 background: linear-gradient(135deg, rgb(56, 95, 201) 0%, rgb(206, 75, 108) 100%);
-}
- ol.gradient-list > li:nth-child(10n+6):before {
-	 background: linear-gradient(135deg, rgba(192, 45, 101, 0.8) 0%, rgba(27, 167, 155, 0.8) 100%);
-}
- ol.gradient-list > li:nth-child(10n+7):before {
-	 background: linear-gradient(135deg, rgba(162, 237, 86, 0.6) 0%, rgba(253, 220, 50, 0.6) 100%);
-}
- ol.gradient-list > li:nth-child(10n+8):before {
-	 background: linear-gradient(135deg, rgba(162, 237, 86, 0.4) 0%, rgba(253, 220, 50, 0.4) 100%);
-}
- ol.gradient-list > li:nth-child(10n+9):before {
-	 background: linear-gradient(135deg, rgba(162, 237, 86, 0.2) 0%, rgba(253, 220, 50, 0.2) 100%);
-}
- ol.gradient-list > li:nth-child(10n+10):before {
-	 background: linear-gradient(135deg, rgba(162, 237, 86, 0) 0%, rgba(253, 220, 50, 0) 100%);
-}
+
  ol.gradient-list > li + li {
 	 margin-top: 2rem;
    font-weight: bold;
