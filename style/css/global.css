@@ -1100,7 +1100,7 @@ ol.listitem {
 }
 
 .features__image {
-  background-size: 180px 100px;
+  background-size: 100px 100px;
   background-position: top center;
   width: 30%;
   min-height: 100px;
@@ -1116,28 +1116,28 @@ ol.listitem {
   background-image: url("../img/feature/feature_newest.svg");
 }
 
-.features__image--intuitive {
-  background-image: url("../img/feature/feature_intuitive.svg");
+.features__image--star {
+  background-image: url("../img/feature/star.png");
 }
 
-.features__image--browsers {
-  background-image: url("../img/feature/content.png");
+.features__image--dsc {
+  background-image: url("../img/feature/dsc.png");
 }
 
-.features__image--clients {
-  background-image: url("../img/feature/feature_clients.svg");
+.features__image--comp {
+  background-image: url("../img/feature/comp.png");
 }
 
-.features__image--fast {
-  background-image: url("../img/feature/feature_fast.svg");
+.features__image--mentro {
+  background-image: url("../img/feature/mentro.png");
 }
 
-.features__image--seo {
-  background-image: url("../img/feature/feature_seo.svg");
+.features__image--lpu {
+  background-image: url("../img/feature/lpu.png");
 }
 
-.features__image--secure {
-  background-image: url("../img/feature/feature_secure.svg");
+.features__image--gclick {
+  background-image: url("../img/feature/logo.jpg");
 }
 
 .features__image--semantic {
@@ -1169,6 +1169,16 @@ ol.listitem {
   letter-spacing: 0.3px;
   line-height: 1.3;
   color: rgba(255, 255, 255, 0.884);
+}
+
+.features__des {
+  margin-top: 2px;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.3px;
+  line-height: 1.3;
+  color: rgba(255, 255, 255, 0.884);
 }
 
 /*------------------------------------*\
